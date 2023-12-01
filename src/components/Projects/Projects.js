@@ -2,6 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import digital from '../../Assets/Projects/digital.jpeg'
+import stackoverflow from '../../Assets/Projects/stackoverflow.png'
+import tictactoe from '../../Assets/Projects/tictactoe.png'
+import todo from '../../Assets/Projects/todo.png'
 
 
 function Projects() {
@@ -18,18 +22,47 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={' '}
+              imgPath={digital}
               title="Digital Wellness"
               description="A social space web app, with reporting section and Admin Dashboard to manage users and reports also integrated chat bot trained for providing details of Doctors and Hospitals. build with react.js, Nodejs, MongoDB and Firebase."
               ghLink="https://github.com/numan71417/digital-wellness/"
               demoLink="https://digital-wellness-client.vercel.app/"
             />
           </Col>
+
+          
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={' '}
-              title="Digital Wellness"
-              description="A social space web app, with reporting section and Admin Dashboard to manage users and reports also integrated chat bot trained for providing details of Doctors and Hospitals. build with react.js, Nodejs, MongoDB and Firebase."
+              imgPath={stackoverflow}
+              title="Stack Overflow "
+              description="Stack Overflow clone , where any user can ask Questions and can add image, video and code realted to the questions , build with react.js, Nodejs, MongoDB and Firebase."
+              ghLink=""
+              demoLink=""
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tictactoe}
+              title="Tic-Tac-Toe"
+              description="This is no simple Tic-Tac-Toe game, it has special features like : 
+              Dark and Light mode, 
+               Background music and sound effects while playing, 
+              Play/pause button to turn off/on Background music, 
+              Confetti show when player wins.
+              build with react.js."
+              ghLink=""
+              demoLink=""
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={todo}
+              title="Todo App "
+              description="A simple TODO app, with extra functionalities like adding images, emojies selection bar and tags. All the data is saved in the Database. Build with react.js, Nodejs, MongoDB and Firebase."
               ghLink=""
               demoLink=""
             />
