@@ -35,9 +35,9 @@ function Projects() {
             <ProjectCard
               imgPath={stackoverflow}
               title="Stack Overflow "
-              description="Stack Overflow clone , where any user can ask Questions and can add image, video and code realted to the questions , build with react.js, Nodejs, MongoDB and Firebase."
-              ghLink=""
-              demoLink=""
+              description="Not any Stack Overflow clone, It also has social media features and also hateful content detection system. Here any user can ask Questions and can add image, video and code realted to the questions , build with react.js, Nodejs, MongoDB and Firebase."
+              ghLink="https://github.com/Numan71417/stack-overflow-clone"
+              demoLink="https://numan-stackoverflow.vercel.app/"
             />
           </Col>
 
@@ -52,8 +52,8 @@ function Projects() {
               Play/pause button to turn off/on Background music, 
               Confetti show when player wins.
               build with react.js."
-              ghLink=""
-              demoLink=""
+              ghLink="https://github.com/Numan71417/tic-tac-toe-react"
+              demoLink="https://tic-tac-toe-react-gamma.vercel.app/"
             />
           </Col>
 
